@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		6F3ECA812909A61200C2A26B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3ECA802909A61200C2A26B /* main.swift */; };
+		6F3ECA882909A68B00C2A26B /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3ECA872909A68B00C2A26B /* Property.swift */; };
+		6F3ECA8A2909A6BA00C2A26B /* Garage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3ECA892909A6B900C2A26B /* Garage.swift */; };
+		6F3ECA8C2909A6D900C2A26B /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3ECA8B2909A6D900C2A26B /* Storage.swift */; };
+		6F3ECA8E2909A6EC00C2A26B /* Apartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3ECA8D2909A6EC00C2A26B /* Apartment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		6F3ECA7D2909A61200C2A26B /* HomeWork 2_4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HomeWork 2_4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F3ECA802909A61200C2A26B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6F3ECA872909A68B00C2A26B /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = SOURCE_ROOT; };
+		6F3ECA892909A6B900C2A26B /* Garage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garage.swift; sourceTree = SOURCE_ROOT; };
+		6F3ECA8B2909A6D900C2A26B /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = SOURCE_ROOT; };
+		6F3ECA8D2909A6EC00C2A26B /* Apartment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apartment.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 		6F3ECA7F2909A61200C2A26B /* HomeWork 2_4 */ = {
 			isa = PBXGroup;
 			children = (
+				6F3ECA872909A68B00C2A26B /* Property.swift */,
+				6F3ECA8D2909A6EC00C2A26B /* Apartment.swift */,
+				6F3ECA8B2909A6D900C2A26B /* Storage.swift */,
+				6F3ECA892909A6B900C2A26B /* Garage.swift */,
 				6F3ECA802909A61200C2A26B /* main.swift */,
 			);
 			path = "HomeWork 2_4";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F3ECA882909A68B00C2A26B /* Property.swift in Sources */,
+				6F3ECA8C2909A6D900C2A26B /* Storage.swift in Sources */,
+				6F3ECA8E2909A6EC00C2A26B /* Apartment.swift in Sources */,
 				6F3ECA812909A61200C2A26B /* main.swift in Sources */,
+				6F3ECA8A2909A6BA00C2A26B /* Garage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
